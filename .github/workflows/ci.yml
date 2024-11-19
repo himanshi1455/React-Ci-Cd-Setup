@@ -15,5 +15,8 @@ jobs:
               with:
                 node-version: '21'  
 
+            - name: "check node version"
+              run: node --version    
+
 
             
